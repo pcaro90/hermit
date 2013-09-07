@@ -1,0 +1,8 @@
+# ---------------------------------------------------
+# Copyright (c) 2013 Pablo Caro. All Rights Reserved.
+# Pablo Caro <me@pcaro.es> - http://pcaro.es/
+# .gitignore
+# ---------------------------------------------------
+
+*.otf
+*.sfd~
