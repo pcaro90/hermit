@@ -6,13 +6,13 @@
 
 PROJECT=Hermit
 PACKAGE=otf-hermit
-INSTALL_FOLDER=/usr/share/fonts/opentype/$(PROJECT)
+INSTALL_FOLDER=/usr/share/fonts/OTF/
 
 all: pack
 
 install:
 	mkdir -p $(INSTALL_FOLDER)
-	cp $(PROJECT)*.otf $(INSTALL_FOLDER)/
+	cp $(PROJECT)*.otf $(INSTALL_FOLDER)
 	fc-cache -frv
 
 uninstall:
