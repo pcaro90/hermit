@@ -1,4 +1,10 @@
 ## Changelog ##
+-   2013/12/21: Hermit v1.21
+    - Changed "Font name" and "Name for Humans" field, so different weights can
+      be installed on Windows.
+    - Some glyphs were not properly centered, and had a different width. They
+      are fine now.
+
 -   2013/12/20: Hermit v1.2
     - Light and bold versions added.
     - '\`' (grave accent) is now smaller.
