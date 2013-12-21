@@ -1,4 +1,79 @@
-## Changelog ##
+## Hermit
+
+Hermit is a monospace font designed to be clear, pragmatic and very readable.
+Its creation has been focused on programming. Every glyph was carefully planned
+and calculated, according to defined principles and rules. For this reason,
+Hermit is coherent and regular.
+
+
+## Features
+
+*   Monospace. Clear and readable. Nice for coding.
+*   Medium, Light and Bold versions.
+*   Clear, at least, on sizes 8 and bigger.
+*   Symbols stand out from common text. Dots and commas are easily seen, and
+    operators are clear even when not surrounded by spaces.
+*   Similar characters have been done very distinguishable.
+*   Complete Latin-0 character set ([ISO
+    8859-15](http://en.wikipedia.org/wiki/ISO/IEC_8859-15)).
+*   Integrated [Powerline](https://github.com/Lokaltog/powerline) symbols.
+*   [OFL 1.1 License][ofl].
+
+
+## Samples
+
+Images taken in [Vim](http://www.vim.org/), with the
+[jellybeans](https://github.com/nanotech/jellybeans.vim) color scheme.
+
+*   8pt: [C](https://pcaro.es/i/Hermit_C_8pt.png) - [Python](https://pcaro.es/i/Hermit_P_8pt.png)
+*   10pt: [C](https://pcaro.es/i/Hermit_C_10pt.png) - [Python](https://pcaro.es/i/Hermit_P_10pt.png)
+*   12pt: [C](https://pcaro.es/i/Hermit_C_12pt.png) - [Python](https://pcaro.es/i/Hermit_P_12pt.png)
+*   [Light vs Medium vs Bold](https://pcaro.es/i/Hermit_light_medium_bold.png)
+
+
+## Cost
+
+Hermit is free, as in both "free beer" and "freedom". However, if and only if
+you like my work and you think I deserve it, I accept
+[donations](https://pcaro.es/donations). But, if you don't want or you can't
+donate, I will think you are awesome anyway.
+
+
+## Downloads
+
+You can download the Hermit font on [my website][site].
+
+Hermit is also available in
+[AUR](https://aur.archlinux.org/packages/otf-hermit/) and
+[Gentoo](http://packages.gentoo.org/package/media-fonts/hermit) (thanks,
+Patrick!).
+
+
+## Improvements, issues, suggestions
+
+If you have a good idea for an improvement in Hermit, or you have found an
+issue, or you have a great suggestion for a future version, you can send me an
+[email][email]. If you are trying to explain me something you don't like, you
+should attach a screnshot.
+
+I also like emails that just say you like Hermit!
+
+
+## To Do in a future version
+
+Hermit is not perfect. It was done under certain circumstances, trying to fill
+some needs. However, this could not be enough to fill somebody else's needs.
+This is the list of those unfilled needs. If you want to know if a new version
+is been prepared, you can visit [my site][site], or you
+can follow me on [Twitter][twitter].
+
+*   Add Cyrillic characters.
+*   Add Greek characters.
+*   Add more Unicode characters.
+
+
+## Changelog
+
 -   2013/12/21: Hermit v1.21
     - Changed "Font name" and "Name for Humans" field, so different weights can
       be installed on Windows.
@@ -52,10 +127,7 @@
 -   2013/09/12: Hermit v1
     -   First release.
 
-
-     !"#$%&'()*+,-./0123456789:;<=>?
-    @ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
-    `abcdefghijklmnopqrstuvwxyz{|}~
-    ¡¢£€¥Š§š©ª«¬­®¯°±²³Žµ¶·ž¹º»ŒœŸ¿
-    ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞß
-    àáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ
+[ofl]: http://scripts.sil.org/OFL
+[email]: mailto:me@pcaro.es
+[twitter]: http://twitter.com/pcaro90
+[site]: https://pcaro.es/p/hermit
