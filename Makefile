@@ -8,8 +8,6 @@ PROJECT=Hermit
 PACKAGE=otf-hermit
 INSTALL_FOLDER=/usr/share/fonts/OTF/
 
-all: pack
-
 install:
 	mkdir -p $(INSTALL_FOLDER)
 	cp $(PROJECT)*.otf $(INSTALL_FOLDER)
@@ -19,8 +17,8 @@ uninstall:
 	rm -rf $(INSTALL_FOLDER)
 
 pack:
-	tar -czf $(PACKAGE)-${VERSION}.tar.gz $(PROJECT)*.otf LICENSE
-	@md5sum $(PACKAGE)-${VERSION}.tar.gz
+	tar -czf packages/$(PACKAGE)-${VERSION}.tar.gz $(PROJECT)*.otf LICENSE
+	@md5sum packages/$(PACKAGE)-${VERSION}.tar.gz
 
 clean:
 	rm -f *.tar.gz

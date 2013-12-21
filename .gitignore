@@ -8,3 +8,5 @@
 *.ttf
 *.sfd~
 *.pdf
+
+!*.tar.gz
