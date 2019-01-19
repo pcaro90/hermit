@@ -5,30 +5,28 @@ Its creation has been focused on programming. Every glyph was carefully planned
 and calculated, according to defined principles and rules. For this reason,
 Hermit is coherent and regular.
 
+Symbols stand out from common text. Dots and commas are easily seen, and
+operators are clear even when not surrounded by spaces. Similar characters have
+been designed to be very distinguishable from each other.
+
 
 ## Features
 
-*   Monospace. Clear and readable. Nice for coding.
-*   Medium, Light and Bold versions.
+*   Monospace. Clear and readable. Nice for hacking and coding!
+*   Regular, Bold and Light weights. Italic for every weight.
 *   Clear, at least, on sizes 8 and bigger.
-*   Symbols stand out from common text. Dots and commas are easily seen, and
-    operators are clear even when not surrounded by spaces.
-*   Similar characters have been done very distinguishable.
-*   Complete Latin-0 character set ([ISO
-    8859-15](http://en.wikipedia.org/wiki/ISO/IEC_8859-15)).
+*   Coverage of a big part of Latin character sets (Basic, Western European,
+    Central European, South Eastern European).
 *   Integrated [Powerline](https://github.com/Lokaltog/powerline) symbols.
 *   [OFL 1.1 License][ofl].
 
 
 ## Samples
 
-Images taken in [Vim](http://www.vim.org/), with the
-[jellybeans](https://github.com/nanotech/jellybeans.vim) color scheme.
+Hermit’s true habitat is a terminal or a text editor, not a website. You should
+just download it and watch it by yourself, in your very own environment!
 
-*   8pt: [C](https://pcaro.es/i/Hermit_C_8pt.png) - [Python](https://pcaro.es/i/Hermit_P_8pt.png)
-*   10pt: [C](https://pcaro.es/i/Hermit_C_10pt.png) - [Python](https://pcaro.es/i/Hermit_P_10pt.png)
-*   12pt: [C](https://pcaro.es/i/Hermit_C_12pt.png) - [Python](https://pcaro.es/i/Hermit_P_12pt.png)
-*   [Light vs Medium vs Bold](https://pcaro.es/i/Hermit_light_medium_bold.png)
+However, if you just want to see a sample, please go to [my website][site].
 
 
 ## Cost
@@ -36,7 +34,7 @@ Images taken in [Vim](http://www.vim.org/), with the
 Hermit is free, as in both "free beer" and "freedom". However, if and only if
 you like my work and you think I deserve it, I accept
 [donations](https://pcaro.es/donations). But, if you don't want or you can't
-donate, I will think you are awesome anyway.
+make a donation, I'll think you're awesome anyway.
 
 
 ## Downloads
@@ -44,9 +42,11 @@ donate, I will think you are awesome anyway.
 You can download the Hermit font on [my website][site].
 
 Hermit is also available in
-[AUR](https://aur.archlinux.org/packages/otf-hermit/) and
-[Gentoo](http://packages.gentoo.org/package/media-fonts/hermit) (thanks,
-Patrick!).
+[AUR](https://aur.archlinux.org/packages/otf-hermit/),
+[Gentoo](http://packages.gentoo.org/package/media-fonts/hermit)
+(thanks, Patrick!) and
+[Fedora](https://apps.fedoraproject.org/packages/pcaro-hermit-fonts)
+(thanks, Ryan!).
 
 
 ## Improvements, issues, suggestions
@@ -54,25 +54,56 @@ Patrick!).
 If you have a good idea for an improvement in Hermit, or you have found an
 issue, or you have a great suggestion for a future version, you can send me an
 [email][email]. If you are trying to explain me something you don't like, you
-should attach a screnshot.
+should attach a screenshot.
 
 I also like emails that just say you like Hermit!
 
 
-## To Do in a future version
+## ToDos and NotToDos
 
 Hermit is not perfect. It was done under certain circumstances, trying to fill
-some needs. However, this could not be enough to fill somebody else's needs.
-This is the list of those unfilled needs. If you want to know if a new version
-is been prepared, you can visit [my site][site], or you
-can follow me on [Twitter][twitter].
+some needs. This, of course, could not be enough to fill somebody else's needs.
+
+Some of these needs may be covered in the future, such as:
+
+*   Add more Unicode characters.
+*   Add it to Google Fonts.
+
+However, I cannot take care of covering some other requests, for example:
 
 *   Add Cyrillic characters.
 *   Add Greek characters.
-*   Add more Unicode characters.
 
 
 ## Changelog
+
+-   2019/01/15: Hermit v2.0
+    - Major version, lots of changes! This version was done usingn Glyphs App
+      instead of FontForge. However, an UFO file is exported, so Hermit can
+      still be edited with several tools.
+    - Added a lot of mark+letter glyphs... Hermit should cover most european
+      languages!
+    - Medium version was renamed to Regular.
+    - Added a propper Bold version, made by hand with love. It is now
+      consistent with the Regular version, and thus actually monospaced.
+    - The Light version was not made by hand, but interpolated (extrapolated?)
+      from the other two versions. It should work a lot better now.
+    - Added an Italic version (Regular, Bold and Light weights), consistent with the
+      rest of the versions. Thanks, kul!
+    - Marked as monospaced (isFixedPitch). Thanks, Tidux!
+    - Every glyph was individually revised and, in some cases, hinted and
+      adjusted to be more clear.
+    - Completely redesigned 't' and 'f'. They are now simpler, more
+      Hermit-like, and they render better on smaller sizes. I know this is a
+      change a lot of people won't like, but remember: Hermit is open source
+      and free as in "freedom", so you can change it back if you wish!
+    - Added '₿' symbol (Bitcoin, U+20BF). Thanks, JasonLeeH!
+    - Added '✓' symbol (Checkmark, U+2713). Thanks, Evan!
+    - Font width is now 618, so glyphs have an actual half. I sincerely don't
+      remember why it was 617, which is a prime number (maybe just because of
+      that, that seems like me. Also, 617 is part of a twin prime pair with
+      619, and may be expressed as a sum of 2 squares: 16² + 19². But 618 is
+      also cool. I guess...).
 
 -   2013/12/21: Hermit v1.21
     - Changed "Font name" and "Name for Humans" field, so different weights can
@@ -127,7 +158,7 @@ can follow me on [Twitter][twitter].
 -   2013/09/12: Hermit v1
     -   First release.
 
-[ofl]: http://scripts.sil.org/OFL
+[ofl]: https://scripts.sil.org/OFL
 [email]: mailto:me@pcaro.es
-[twitter]: http://twitter.com/pcaro90
+[twitter]: https://twitter.com/pcaro90
 [site]: https://pcaro.es/p/hermit
