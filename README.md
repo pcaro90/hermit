@@ -44,9 +44,10 @@ You can download the Hermit font on [my website][site].
 Hermit is also available in
 [AUR](https://aur.archlinux.org/packages/otf-hermit/),
 [Gentoo](http://packages.gentoo.org/package/media-fonts/hermit)
-(thanks, Patrick!) and
+(thanks, Patrick!),
 [Fedora](https://apps.fedoraproject.org/packages/pcaro-hermit-fonts)
-(thanks, Ryan!).
+(thanks, Ryan!), and
+[FreeBSD](https://www.freshports.org/x11-fonts/hermit).
 
 
 ## Improvements, issues, suggestions
