@@ -42,7 +42,7 @@ make a donation, I'll think you're awesome anyway.
 You can download the Hermit font on [my website][site].
 
 Hermit is also available in
-[AUR](https://aur.archlinux.org/packages/otf-hermit/),
+[Arch Linux](https://archlinux.org/packages/community/any/otf-hermit),
 [Gentoo](http://packages.gentoo.org/package/media-fonts/hermit)
 (thanks, Patrick!),
 [Fedora](https://apps.fedoraproject.org/packages/pcaro-hermit-fonts)
