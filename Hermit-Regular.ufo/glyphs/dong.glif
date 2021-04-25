@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dong" format="1">
+  <advance width="618"/>
+  <unicode hex="20AB"/>
+  <outline>
+    <component base="d"/>
+    <component base="strokeshortcomb" xOffset="154"/>
+    <contour>
+      <point x="540" y="-158" type="line"/>
+      <point x="540" y="-68" type="line"/>
+      <point x="100" y="-68" type="line"/>
+      <point x="100" y="-158" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-05-28 19:54:21 +0000</string>
+    </dict>
+  </lib>
+</glyph>
