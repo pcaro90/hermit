@@ -3,14 +3,13 @@
   <advance width="618"/>
   <unicode hex="012F"/>
   <outline>
-    <component base="idotless"/>
-    <component base="dotaccentcomb" xOffset="1"/>
+    <component base="i"/>
     <component base="ogonekcomb" xOffset="77"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017-05-29 15:53:28 +0000</string>
+      <string>2021-04-15 03:00:00 +0000</string>
     </dict>
   </lib>
 </glyph>
